@@ -17,6 +17,22 @@ app.get('/puzzling', (req, res) =>{
     res.sendFile(path.join(__dirname, 'public', 'HTML', 'puzzle2.html'))
 })
 
+app.get('/shadow', (req, res) =>{
+    res.sendFile(path.join(__dirname, 'public', 'HTML', 'puzzle3.html'))
+})
+
+app.get('/610', (req, res) =>{
+    res.sendFile(path.join(__dirname, 'public', 'HTML', 'puzzle4.html'))
+})
+
+app.get('/secret-society', (req, res) =>{
+    res.sendFile(path.join(__dirname, 'public', 'HTML', 'puzzle5.html'))
+})
+
+app.get('/nothing', (req, res) =>{
+    res.sendFile(path.join(__dirname, 'public', 'HTML', 'puzzle6.html'))
+})
+
 app.get('/final', (req, res) =>{
     res.sendFile(path.join(__dirname, 'public', 'HTML', 'welcome.html'))
 })

@@ -1,0 +1,5 @@
+#1: puzzling
+#2: shadow
+#3: 610
+#4: secret-society
+#3: nothing

@@ -25,5 +25,19 @@ button{
 }
 
 button:hover{
-    background-color: #ddd;
+    background-color: #ccc;
+}
+
+#showHint{
+    padding: 5px 10px;
+    color: black;
+    font-weight: bold;
+}
+
+#showHint:hover{
+    border: 2px solid black;
+}
+
+.hidden{
+    display: none;
 }
