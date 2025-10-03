@@ -41,3 +41,9 @@ button:hover{
 .hidden{
     display: none;
 }
+
+#celebration{ /* Rainbow button. Rainbow background is done in JS */
+    padding: 15px 30px;
+    font-size: 20px;
+    color: white;
+}

@@ -33,7 +33,7 @@ app.get('/nothing', (req, res) =>{
     res.sendFile(path.join(__dirname, 'public', 'HTML', 'puzzle6.html'))
 })
 
-app.get('/final', (req, res) =>{
+app.get('/16385', (req, res) =>{
     res.sendFile(path.join(__dirname, 'public', 'HTML', 'welcome.html'))
 })
 
