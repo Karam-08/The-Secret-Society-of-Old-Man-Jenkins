@@ -1,0 +1,15 @@
+*{
+    box-sizing: border-box;
+}
+
+body{ 
+    background: linear-gradient(90deg, #f8cdda, #f1a7f1, #a1c4fd);
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+#container{
+    max-width: 700px;
+    margin: 0 auto;
+}

@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Welcome to our secret society!</title>
-    <link rel="stylesheet" href="/CSS/main.css">
+    <link rel="stylesheet" id="style" href="/CSS/main.css"> <!-- Will be changed on button click -->
 </head>
 <body>
     <main id="container">
-        <h1>The end.</h1>
-        <p>Well you made it to the end. I guess all that's left to do is click this button.</p>
+        <h1 id="header">The end.</h1>
+        <p id="text">Well you made it to the end. I guess all that's left to do is click this button.</p>
         <button id="celebration">Click Me!</button>
+        <audio id="music" src="/celebration.mp3" preload="auto"></audio>
     </main>
 </body>
 <script src="/JS/celebration.js"></script>

@@ -14,20 +14,6 @@ body{
     margin: 0 auto;
 }
 
-button{
-    padding: 10px 20px;
-    margin-top: 15px;
-    border: none;
-    border-radius: 8px;
-    background-color: #eee;
-    color: #333;
-    cursor: pointer;
-}
-
-button:hover{
-    background-color: #ccc;
-}
-
 #showHint{
     padding: 5px 10px;
     color: black;
@@ -44,6 +30,10 @@ button:hover{
 
 #celebration{ /* Rainbow button. Rainbow background is done in JS */
     padding: 15px 30px;
+    margin-top: 15px;
+    border: none;
+    border-radius: 8px;
     font-size: 20px;
     color: white;
+    cursor: pointer;
 }
