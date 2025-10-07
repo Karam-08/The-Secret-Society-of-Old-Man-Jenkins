@@ -11,7 +11,6 @@ function animateRainbow(){
     requestAnimationFrame(animateRainbow); // Loops the animation
 }
 animateRainbow(); // Starts the animation
-
 ///////////////////////////////////////
 
 // Celebration button click
@@ -19,9 +18,9 @@ animateRainbow(); // Starts the animation
 const button = document.getElementById('celebration')
 const styleLink = document.getElementById('style') // HTML style link
 
-const header = document.getElementById('header') // <h1>
-const text = document.getElementById('text') // <p>
-const music = new Audio('/celebration.mp3')
+const header = document.getElementById('header')
+const text = document.getElementById('text')
+const music = new Audio('/celebration.mp3') // the celebration music
 
 button.addEventListener('click', function(e){
     e.preventDefault()
@@ -29,7 +28,7 @@ button.addEventListener('click', function(e){
     button.style.display = 'none' // Button dissapears
 
     header.textContent = 'You are now welcome to our secret society!'
-    text.textContent = 'Congratulations. You have completed all 6 puzzles! Now you will join our secret society to assist me in my task. We wish you the best, and you will be provided with further instructions later.'
-    // .textContent doesn't need me to add html tags
+    text.textContent = 'Congratulations. You have completed all 6 puzzles! Now you will join our secret society to assist me in my task. We wish you the best, and you will be provided with further instructions later. Just en joy this celebratory music for now and chillax.'
+    // .textContent doesn't need me to add html tags like <p>. I just replace the text in the element.
     music.play()
 })

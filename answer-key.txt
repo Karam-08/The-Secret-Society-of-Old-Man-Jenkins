@@ -1,6 +1,86 @@
-#1: puzzling
-#2: shadow
-#3: 610
-#4: secret-society
-#5: nothing
-#6: 16835
+Puzzle #1 answer key:
+    Puzzle: Try to decrypt this Cipher: wbggspun
+    Hint: Each letter is shifted 7 letters forward
+    Answer: puzzling
+    URL: localhost:300/puzzle-1
+
+Puzzle #2 answer key:
+    Puzzle: Try to solve this riddle:
+
+        I can fly like a bird not in the sky
+
+        Which can always swim and always dry
+
+        I say goodbye at night and morning hi
+
+        I'm part of you, what am I?
+
+        I follow and lead as you pass
+
+        Dress yourself in black my darkness lasts
+
+        I flee the light but without the sun
+
+        Your view of me would be gone
+
+    Hint: Every hint I thought of was already in the riddle, so just read it better
+    Answer: shadow
+    URL: localhost:3000/puzzling
+
+Puzzle #3 answer key:
+    Puzzle: What is the 15th number in this sequence?
+        0, 1, 1, 2, 3, 5, 8...
+    Hint: Each number is the sum of the previous two numbers.
+        0 + 1 = 1
+        1 + 1 = 2 
+        2 + 1 = 3
+        3 + 2 = 5
+    Answer: 610
+    URL: localhost:3000/shadow
+
+Puzzle #4 answer key:
+    Puzzle: Try to decrypt this Cipher:
+        19 5 3 18 5 20
+        19 15 3 9 5 20 25
+    Hint: Each number refers to the letter order in the alphabet.
+        a = 1
+        b = 2
+        c = 3
+    Answer: secret-society
+    URL: localhost:3000/610
+
+Puzzle #5 answer key:
+    Puzzle: Try to solve this riddle:
+
+        I am what men love more than life
+
+        Fear more than death or mortal strife
+        
+        What dead men have and the rich require
+
+        I'm what contented men desire
+
+        What am I?
+
+    Hint: 
+
+        What does a man love more than life?
+
+        What does a man fear more than death?
+
+        What does a dead man have?
+
+        What does a content man want?
+
+        All of these share the same answer.
+
+    Answer: nothing
+    URL: localhost:3000/secret-society
+
+Puzzle #6 answer key:
+    Puzzle: What is the 15th number in this sequence?
+        2, 3, 5, 9, 17, 33, 65
+    Hint: Each difference is a power of two
+        1, 2, 4, 8, 16
+    Answer: 16385
+    URL: localhost:3000/nothing
